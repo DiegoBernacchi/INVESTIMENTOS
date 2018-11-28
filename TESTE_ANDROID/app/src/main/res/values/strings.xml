@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">INVESTIMENTOS</string>
+
+    <string name="label_aplicacao_minima">Aplicação Mínima</string>
+    <string name="label_nome_completo">Nome Completo</string>
+    <string name="label_objetivo">Objetivo</string>
+    <string name="label_publico_alvo">Público Alvo</string>
+    <string name="label_perfil_de_risco">Perfil de Risco</string>
+    <string name="label_data_inicio">Data de início</string>
+    <string name="label_imagem">Imagem</string>
+
+    <string name="hint_buscar_por_nome">Buscar por nome</string>
+
+    <string name="value">VARIÁVEL</string>
+
+    <string name="titulo_lista_fundos">Lista de Fundos</string>
+    <string name="titulo_detalhe_do_fundo">Detalhe do fundo</string>
+</resources>

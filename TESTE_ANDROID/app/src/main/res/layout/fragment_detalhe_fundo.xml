@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtTituloFundo"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_titulo_size"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:text="@string/value" />
+
+            <TextView
+                android:id="@+id/txtNomeCompleto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTituloFundo"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/label_nome_completo"/>
+
+            <TextView
+                android:id="@+id/txtValNomeCompleto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNomeCompleto"
+                android:text="@string/value"/>
+
+            <TextView
+                android:id="@+id/txtObjetivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtValNomeCompleto"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/label_objetivo"/>
+
+            <TextView
+                android:id="@+id/txtValObjetivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtObjetivo"
+                android:text="@string/value"/>
+
+            <TextView
+                android:id="@+id/txtPublicoAlvo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtValObjetivo"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/label_publico_alvo"/>
+
+            <TextView
+                android:id="@+id/txtValPublicoAlvo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPublicoAlvo"
+                android:text="@string/value"/>
+
+            <TextView
+                android:id="@+id/txtPerfilRisco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtValPublicoAlvo"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/label_perfil_de_risco"/>
+
+            <TextView
+                android:id="@+id/txtTipoPerfilRisco"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtPerfilRisco"/>
+
+            <TextView
+                android:id="@+id/txtValPerfilRisco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/txtPerfilRisco"
+                android:layout_toRightOf="@+id/txtTipoPerfilRisco"
+                android:layout_toEndOf="@+id/txtTipoPerfilRisco"
+                android:text="@string/value"/>
+
+            <TextView
+                android:id="@+id/txtDataInicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTipoPerfilRisco"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/label_data_inicio"/>
+
+            <TextView
+                android:id="@+id/txtValDataInicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDataInicio"
+                android:text="@string/value"/>
+
+            <TextView
+                android:id="@+id/txtImagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtValDataInicio"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="@string/label_imagem"/>
+
+            <ImageView
+                android:id="@+id/imgVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtImagem"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.CardView>
